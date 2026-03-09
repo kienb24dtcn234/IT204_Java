@@ -31,7 +31,7 @@ public class Main {
 
         Supplier<User> createUser = () -> new User("defaultUser", false);
 
-        User u = new User("huy", true);
+        User u = new User("kien", true);
 
         System.out.println(checkAdmin.test(u));
         System.out.println(usernameMapper.apply(u));
